@@ -26,7 +26,7 @@ export default function Header() {
 
         {/* header right */}
         <div className="header__right">
-          <ul className="header__right-list list-unstyled d-flex m-0">
+          <ul className="header__right-list list-unstyled d-flex m-0 fw-bolder">
             <li className="header__right-item pe-4">
               English <RiArrowDownSFill />
             </li>

@@ -1,0 +1,29 @@
+.navbar {
+  width: 100%;
+  height: 8rem;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+.navbar-nav {
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+.navigation__diamond {
+  font-size: 1.8rem;
+  color: #03cfcf;
+}
+
+.navigation__signup {
+  color: #fff !important;
+}
+
+.form-control {
+  height: 3rem;
+}
