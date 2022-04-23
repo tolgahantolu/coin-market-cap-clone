@@ -1,0 +1,17 @@
+.highlights__text,
+.highlights__description,
+.highlights__link,
+.highlights__link:hover {
+  color: #616060;
+}
+.highlights__icon {
+  color: #0d6efd;
+}
+
+.highlights__description {
+  font-size: 1.3rem;
+}
+
+.table__background {
+  background-color: #fafaf9;
+}
