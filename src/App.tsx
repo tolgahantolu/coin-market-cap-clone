@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Navi from "./components/Navi";
 import Carousel from "./components/Carousel";
 import Highlights from "./components/Highlights";
+import Coins from "./components/Coins";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navi />
       <Carousel />
       <Highlights />
+      <Coins />
     </div>
   );
 }
