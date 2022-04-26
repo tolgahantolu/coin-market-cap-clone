@@ -1,0 +1,6 @@
+rect {
+  fill: transparent !important;
+}
+svg g text {
+  display: none;
+}
