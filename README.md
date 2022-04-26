@@ -14,7 +14,7 @@
 
 ## Projeyi Localde Çalıştırma
 
-Projeyi locale aldıktan sonra gerekli bağımlılıkları indirmek için proje dizininde `npm install` komutunu çalıştırmanız yeterli olacaktır. Daha sonra `package.json` dosyası içerisindeki bağımlılıklar otomatik olarak indirilecektir. Projeyi çalıştırmak içinse yine proje bulunduğu dizinde `npm start` komutunu çalıştırın.
+Projeyi locale aldıktan sonra gerekli bağımlılıkları indirmek için proje dizininde `npm install` komutunu çalıştırmanız yeterli olacaktır. Daha sonra `package.json` dosyası içerisindeki bağımlılıklar otomatik olarak indirilecektir. Projeyi çalıştırmak içinse yine projenin bulunduğu dizinde `npm start` komutunu çalıştırmanız yeterli olacaktır.
 
 ### Proje geliştirilirken kullanılan node versiyonu: `v16.14.2` ve npm versiyonu: `8.5.0` şeklindedir.
 
