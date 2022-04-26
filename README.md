@@ -1,3 +1,23 @@
+# CoinMarketCap Clone ⚛
+
+-✅ Kullanılan API: [https://coinmarketcap.com/api/](https://coinmarketcap.com/api/).
+
+## Kullanılan Kütüphaneler/Paketler:
+
+-🟢 Axios : [https://axios-http.com/docs/intro](https://axios-http.com/docs/intro).
+-🟢 Redux : [https://redux.js.org/](https://redux.js.org/).
+-🟢 Thunk : [https://github.com/reduxjs/redux-thunk](https://github.com/reduxjs/redux-thunk).
+-🟢 Bootstrap : [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/).
+-🟢 Carousel : [https://swiperjs.com/react](https://swiperjs.com/react).
+-🟢 Charts : [https://www.react-google-charts.com/](https://www.react-google-charts.com/).
+-🟢 Icons : [https://react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/).
+
+## Projeyi Localde Çalıştırma
+
+Projeyi locale aldıktan sonra gerekli bağımlılıkları indirmek için proje dizininde `npm install` komutunu çalıştırmanız yeterli olacaktır. Daha sonra `package.json` dosyası içerisindeki bağımlılıklar otomatik olarak indirilecektir.
+
+### Proje geliştirilirken kullanılan node versiyonu: `v16.14.2` ve npm versiyonu: `8.5.0` şeklindedir.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
