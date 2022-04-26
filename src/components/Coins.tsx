@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { Container, Table } from "react-bootstrap";
-import axios from "axios";
 import { connect } from "react-redux";
-import { useDispatch, useSelector } from "react-redux";
 import { getCoins } from "../actions";
 
 function Coins(props) {
@@ -35,13 +33,27 @@ function Coins(props) {
                 return (
                   <tr key={coin.id}>
                     <td>{coin.id}</td>
-                    <td>{coin.name}</td>
-                    <td>price</td>
-                    <td>24h</td>
-                    <td>7d</td>
-                    <td>market cap</td>
-                    <td>volume 24h</td>
-                    <td>circualating supply</td>
+                    <td>
+                      {coin.name} {coin.symbol}
+                    </td>
+                    <td>$ {coin.quote.USD.price.toLocaleString("en-US")}</td>
+                    <td>
+                      {coin.quote.USD.percent_change_24h.toLocaleString(
+                        "en-US"
+                      )}
+                    </td>
+                    <td>
+                      {coin.quote.USD.percent_change_7d.toLocaleString("en-US")}
+                    </td>
+                    <td>
+                      $ {coin.quote.USD.market_cap.toLocaleString("en-US")}
+                    </td>
+                    <td>
+                      $ {coin.quote.USD.volume_24h.toLocaleString("en-US")}
+                    </td>
+                    <td>
+                      {coin.circulating_supply.toLocaleString("en-US")} BTC
+                    </td>
                     <td>Grafik last 7 days</td>
                   </tr>
                 );
